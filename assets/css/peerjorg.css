@@ -60,6 +60,7 @@ body > .container {
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    text-align: left;
 }
 
 .carousel-caption h1,
