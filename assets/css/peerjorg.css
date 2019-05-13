@@ -204,8 +204,131 @@ h3.title {
     line-height: 26px;
 }
 
+/* BULLETS */
+
+.infobox-checklist li {
+    list-style: outside none none;
+    padding: 0 20px 0 43px;
+    letter-spacing: 0.01em;
+    line-height: 1.45 !important;
+    margin: 0 0 20px;
+}
+
+ul.infobox-checklist {
+    font-weight:300;
+    margin:24px 0 0 0;
+}
+
+.infobox-checklist li ul {
+    margin-left: 10px;
+}
+
+.infobox-checklist li li {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.infobox-checklist li li i {
+    margin-right: 8px;
+}
+
+
+/* AWARDS
+-------------------------------------------------- */
+
+
+.award-page-row {
+    padding: 15px 0 30px;
+}
+
+.award-page-row-left {
+    margin-bottom: 25px;
+}
+
+.row-title {
+    margin-bottom: 10px;
+}
+
+.row-text {
+    font-size: 19px;
+    color: #484848;
+}
+
+
+.award-page-bullets ul.infobox-checklist {
+    margin: 0;
+    padding: 0;
+}
+
+.award-page-bullets ul.infobox-checklist li {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.award-info {
+    text-align: center;
+}
+
+.award-title {
+    font-size: 24px;
+    margin: 9px 0 0;
+    font-weight: 500;
+}
+
+.award-text {
+    font-size: 18px;
+}
+
+.award-badge {
+    width: 100%;
+}
+
+.icon-tickcircle {
+    background-image: url('../images/tickcircle.svg');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin-left: -37px;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.award-badge-container {
+    float: left;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.award-page-button {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff !important;
+    background: #7a5199;
+    border-radius: 7px;
+    max-width: 100%;
+    white-space: nowrap;
+    padding: 15px 12px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none !important;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media (min-width: 25em)  {
+    .award-badge-container {
+        float: left;
+        width: 47%;
+        margin-right: 6%;
+    }
+    .award-badge-container:last-of-type {
+        margin-right: 0;
+    }
+}
 
 @media (min-width: 40em) {
     /* Bump up size of carousel content */
@@ -214,7 +337,6 @@ h3.title {
         font-size: 1.25rem;
         line-height: 1.4;
     }
-
     .featurette-heading {
         font-size: 50px;
     }
@@ -223,5 +345,8 @@ h3.title {
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 7rem;
+    }
+    .award-page-button {
+        max-width: 90%;
     }
 }
