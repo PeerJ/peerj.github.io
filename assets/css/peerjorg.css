@@ -204,6 +204,10 @@ h3.title {
     line-height: 26px;
 }
 
+.journals {
+    justify-content: center;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -220,8 +224,9 @@ h3.title {
     }
 }
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
+@media (max-width: 480px) {
+    .journals .col-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
