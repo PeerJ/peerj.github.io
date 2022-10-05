@@ -150,6 +150,11 @@ body > .container {
     letter-spacing: -.05rem;
 }
 
+.featurette-sub-heading {
+    font-weight: 400; 
+    font-size: 1.6em;
+}
+
 .featurette-dark {
     background: #353b41;
     border-radius: 2px;
@@ -207,6 +212,36 @@ h3.title {
 .journals {
     justify-content: center;
 }
+
+
+/* AUGUST 2022 UPDATES
+-------------------------------------------------- */
+
+.jumbotron {
+    color: white;
+    background-image: url("../images/orgheader-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+
+  .video-panel {
+    height: 55vw;
+  }
+  
+  @media (min-width: 600px) {
+    .video-panel {
+      height: 45vw;
+    }
+  }
+
+.lead strong {
+    font-weight: 500;
+}
+
+
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
